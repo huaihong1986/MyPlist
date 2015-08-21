@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+<UITableViewDelegate>{
+    NSMutableArray *_array;
+}
+
+@property(nonatomic,strong)UITableView *tableView;
 
 @end
 
